@@ -52,8 +52,64 @@ h3{
 img{
     max-width: 100%;
     display: block; /*Evita la separación de la parte inferior de la imagen*/
+    height: auto;
 }
 /*Utilidades*/
 .text-center{
     text-align: center;
+}
+/*Degradados*/
+.degradado-verde{
+    color: transparent;
+    background: linear-gradient(to right, var(--primario) 0%, var(--secundario) 100%);
+    -webkit-background-clip: text; /*Este prefijo se pone para que los navegadores soporten esta funcion y se visualice el degradado en las letras*/
+    background-clip: text;
+}
+
+/*Header*/
+.header{
+    background-color: var(--negro);
+    padding: calc(var(--separacion) * 3) 0;
+    color: var(--blanco);
+}
+@media (min-width: 768px) {
+    .contenido-header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.texto-header{
+    text-align: center;
+    padding-top: var(--separacion);
+}
+@media (min-width: 768px) {
+    .texto-header{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /*Para alinear el texto a la imagen verticalmente*/
+        padding: 0;
+    }
+}
+.texto-header p{
+    margin: 0; /*Quita el espacio entre el parrafo y el texto de abajo*/
+}
+.tagline-producto{
+     font-size: 3rem;
+     font-weight: 900;
+}
+.nombre-producto{
+    font-size: 6rem;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .nombre-producto{
+        font-size: 10rem;
+        line-height: 1; /*Disminuye el interlineado */
+    }
+}
+
+.precio-producto span{
+    font-size: 6rem;
+    font-weight: 90 0;
 }
