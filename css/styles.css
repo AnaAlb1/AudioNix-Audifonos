@@ -29,7 +29,7 @@ body{
 
 /*Globales*/
 .contenedor{
-    max-width: 120rem; /*Para que no exceda los 120rem*/
+    max-width: 160rem; /*Para que no exceda los 120rem*/
     width: 90%; /*Pero solo tomara el 90% de la pantalla*/
     margin: 0 auto;
 }
@@ -144,4 +144,59 @@ img{
     color: var(--primario);
     text-transform: uppercase;
     margin-top: calc(var(--separacion) / 2);
+}
+
+/*Sobre Audionix*/
+.sobre-audio{
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+    background-position: right;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 110rem;
+}
+@media (min-width: 768px) {
+    .sobre-audio{
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+        background-position: right;
+        background-repeat: repeat, no-repeat;
+    }
+}
+@media (min-width: 1600px) {
+    .sobre-audio{
+        background-size: 100%, 160rem;
+    }
+}
+.sobre-audio-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 40rem);
+    row-gap: var(--separacion);
+}
+@media (min-width: 768px) {
+    .sobre-audio-grid{
+        display: grid;
+        row-gap: unset;
+        grid-template-rows: unset; /*Para eliminar las filas*/
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: calc(var(--separacion) * 3) ;
+        padding: calc(var(--separacion) * 2) 0;
+    }
+}
+.texto-sobre-audio{
+    grid-row: 2 / 3;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: var(--separacion);
+}
+@media (min-width: 768px) {
+    .texto-sobre-audio{
+        padding-bottom: 0;
+    }
+}
+.texto-sobre-audio h2{
+    font-size: 4rem;
+}
+.texto-sobre-audio p{
+    font-size: 2rem;
+    line-height: 2;
 }
