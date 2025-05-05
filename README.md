@@ -4,17 +4,11 @@
 
 ---
 
-## 🌐 Vista previa
-
-!💻[Vista previa del sitio en computadora](./img/computadora.jpeg)
-!📱[Vista previa del sitio en móvil](./img/movil.jpeg)
-
----
-
 ## 📱 Responsivo para Web y Móvil
 
 Este proyecto fue diseñado con **responsive design**, asegurando una experiencia óptima tanto en computadoras como en dispositivos móviles.
-
+!💻[Vista previa del sitio en computadora](./img/computadora.jpeg)
+!📱[Vista previa del sitio en móvil](./img/movil.jpeg)
 ---
 
 ## 🚀 Tecnologías utilizadas
@@ -26,8 +20,10 @@ Este proyecto fue diseñado con **responsive design**, asegurando una experienci
 - Íconos SVG
 - Imagenes avif y webp
 
-
+---
 ✨ Autor
 Desarrollado por Analleli Albarrán como parte de un curso de diseño web con HTML y CSS.
+---
+
 📝 Licencia
 Este proyecto fue creado con fines educativos.
