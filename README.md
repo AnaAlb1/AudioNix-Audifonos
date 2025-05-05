@@ -1,4 +1,4 @@
-# 🎧 AudioNix
+<h1 align="center">🎧 AudioNix</h1>
 
 **AudioNix** es un proyecto de diseño web responsivo creado con **HTML y CSS**, enfocado en la promoción de audífonos modernos. Este sitio muestra información de producto, características principales, precios y una sección para suscribirse a actualizaciones.
 
@@ -8,8 +8,7 @@
 
 Este proyecto fue diseñado con **responsive design**, asegurando una experiencia óptima tanto en computadoras como en dispositivos móviles.
 
-!💻[Vista previa del sitio en computadora](./img/computadora.jpeg)
-!📱[Vista previa del sitio en móvil](./img/movil.jpeg)
+<p align="center">💻[Vista previa del sitio en computadora](./img/computadora.jpeg)    |    📱[Vista previa del sitio en móvil](./img/movil.jpeg)<p align="center">
 
 ---
 
@@ -28,9 +27,6 @@ Este proyecto fue diseñado con **responsive design**, asegurando una experienci
 
 Desarrollado por Analleli Albarrán como parte de un curso de diseño web con HTML y CSS.
 
----
-
-📝 Licencia
 ---
 
 Este proyecto fue creado con fines educativos.
