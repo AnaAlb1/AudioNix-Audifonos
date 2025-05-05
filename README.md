@@ -25,8 +25,8 @@ Este proyecto fue diseñado con **responsive design**, asegurando una experienci
 ✨ Autor
 ---
 
-Desarrollado por Analleli Albarrán como parte de un curso de diseño web con HTML y CSS.
+<h2 align="center"> Desarrollado por Analleli Albarrán 🙋🏽‍♀️</h2>
 
 ---
 
-Este proyecto fue creado con fines educativos.
+<p align="center">Este proyecto fue creado con fines educativos como parte de un curso de diseño web con HTML y CSS.</p>
