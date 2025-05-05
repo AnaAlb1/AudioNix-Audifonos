@@ -8,7 +8,7 @@
 
 Este proyecto fue diseñado con **responsive design**, asegurando una experiencia óptima tanto en computadoras como en dispositivos móviles.
 
-💻![Vista previa del sitio en computadora](./img/computadora.jpeg)    |    📱![Vista previa del sitio en móvil](./img/movil.jpeg)
+💻[Vista previa del sitio en computadora](./img/computadora.jpeg)    |    📱[Vista previa del sitio en móvil](./img/movil.jpeg)
 
 ---
 
